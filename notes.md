@@ -1,3 +1,4 @@
+<!-- Suelta tus manos y tu mente para solucionar este reto -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,55 +8,49 @@
   <link rel="icon" href="assets/images/logo.png"></link>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <!--<link rel="stylesheet" href="css/grid.css">-->
 </head>
-<header>
-  <nav class="">
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">
-    <img src="assets/images/logoForma.png" alt="Labcar"></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="index.html">Viaja</a></li>
-      <li><a href="index.html">Conduce</a></li>
-      <li><a href="index.html">Inicia sesion</a></li>
-    </ul>
-  </div>
-</nav>
-</header>
-<!--Primer seccion-->
-<section class="containerOne">
-  <div class="row">
-    <div id="signInBox" class="col s4 right">
-      <div>
-        <p class="text-header">Disfruta del viaje</p>
-        <p class="text-header">Eres dueño de tu tiempo</p>
+<body>
+  <nav class="container-fluid">
+    <div class="row">
+      <a  class="nav-logo" href="index.html">
+         <img src="assets/images/logoForma.png" alt="Logo"</a>
+      <div class="menu-hide-mobile menu">
+        <ul>
+          <li><a href="#">Viaja</a></li>
+          <li><a href="#">Conduce</a></li>
+          <li><a href="#">Inicia Sesion</a></li>
+        </ul>
       </div>
-      <div>
-      <p class="signIn boxHeader">Viaja con Lab&ltar</p>
-      <button>REGISTRATE</button>
-      </div>
-      <P>Ó bien</P>
-      <button>Conviertete en un conductor</button>
     </div>
-  </div>
-  </section>
-  <!--Segunda seccion-->
-  <section class="containerTwo">
-    <div class="row infoRow">
-      <div id="infoSection" class="col s5">
-          <img src="assets/images/iPhone6Plus.png" alt="IPhone">
+  </nav>
+  <main class="container">
+    <div class="row">
+      <div class="col-8"></div>
+      <div class="col-4">
+        <p class="text-header">Disfruta del viaje<br>Eres dueño de tu tiempo</p>
+        <p>Viaja con Lab&ltar</p>
+        <button>REGISTRATE</button>
+        <P>-----Ó bien-----</P>
+        <button>Conviertete en un conductor</button>
       </div>
-      <div id="information"class="col s5 right">
-          <p class="text-header">Descarga la nueva app</p>
-          <p>La version actualizada de Labcar esta llena de nuevas funciones para
-            llegar a donde quieras aun mas facil y rápido.</p>
-          <p>Con solo tocar un boton, un ato llega justo a tu ubicacion. Subete y no te preocupes: tu conductor sabe
-            exactamente a donde ir.</p>
-        </div>
-      <div class="col s2"></div>
     </div>
-  </section>
-  <!--Tercer seccion-->
-  <section class="containerThree">
+  </main>
+  <article class="container">
+    <div class="row">
+      <div "col-5">
+        <img src="assets/images/iPhone6Plus.png" alt="IPhone"></div>
+      <div "col-5">
+        <p class="text-header">Descarga la nueva app</p>
+        <p>La version actualizada de Labcar <br> esta llena de nuevas funciones para <br> llegar a donde quieras
+        aun mas facil <br> y rápido.</p>
+        <p>Con solo tocar un boton, un ato <br> llega justo a tu ubicacion. Subete y <br> no te preocupes: tu conductor sabe <br>
+        exactamente a donde ir.</p>
+      </div>
+      <div "col-2"></div>
+    </div>
+  </article>
+  <article class="container">
     <div class="row">
       <div class="col-4">
         <p class="text-header">Conduce cuando quieras</p>
@@ -63,9 +58,8 @@
         <button>Conviertete en conductor</button>
       </div>
     </div>
-  </section>
-  <!--Cuarta seccion-->
-  <section  class="maps">
+  </article>
+  <article class="container">
     <div class="row">
       <div class="col-6">
         <p class="text-header">Tarifas</p>
@@ -80,9 +74,8 @@
         <!--Aqui va lo de google maps-->
       </div>
     </div>
-  </section>
-  <!--Quinta seccion-->
-  <footer>
+  </article>
+  <footer class="container">
     <p class="text-header">Lab&ltar</p>
       <!--Aqui va una linea-->
     <ul>

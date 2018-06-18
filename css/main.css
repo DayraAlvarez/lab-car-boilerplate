@@ -1,19 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
 
-.container {
-    width: 100%;
-    max-width: 992px;
-    margin: 0 auto;
+div.nav-wrapper {
+  background-color: white;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.brand-logo {
+  position: relative;
+  padding-right: 5px;
+}
+
+nav ul a {
+  color:black;
+}
+
+nav .brand-logo {
+  padding: 3px 12px;
+}
+
+.containerOne {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 45em;
+  color: white;
+}
+
+#signInBox {
+  bottom:30%;
+  box-sizing: content-box;
+  margin-top: 10%;
+  position: relative;
+  background-color: #F7B617;
+  padding: 1em 1em;
+}
+
+.text-header {
+  font-size: 20px;
 }
 
 p {
-  padding-bottom: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+button {
+  background-color:white;
+  color: black;
+  border:none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.containerTwo {
+  background-color: #F7B617;
+  margin-top: -2px;
+  padding-bottom: 20px;
+}
+
+.infoRow {
+  
+}
+
+section.containerTwo > div.row {
+  margin-bottom: 0;
+}
+
+#infoSection {
+  box-sizing: content-box;
+  margin-top: 5%;
+  padding-left: 7%;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  border-color: white;
+  border-width: medium;
+}
+
+.information {
+  display: inline-block;
+  float: left;
+  color: white;
+}
+
+.infoContent {
+  box-sizing: content-box;
+  display: inline-block;
+}
+
+.containerThree {
+    background-image: url("../assets/images/conduce.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 45em;
+    color: white;
+    margin-top: 0;
+}
+
+.maps {
+    background-color: #F7B617;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
