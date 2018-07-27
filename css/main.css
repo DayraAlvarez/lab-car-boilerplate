@@ -1,10 +1,12 @@
 * {
-  margin:0;
-  padding: 0;
+  margin-bottom: 0!important; 
 }
+
+/*Navbar*/
 
 div.nav-wrapper {
   background-color: white;
+  padding: 0%;
 }
 
 .brand-logo {
@@ -24,204 +26,163 @@ nav .brand-logo {
   padding: 3px 12px;
 }
 
-.containerOne {
+/*SignIn, LogIn*/
+
+#loginSignup {
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-position: bottom;
   height: 38em;
-  color: white;
+  text-align: center;
 }
 
 #signInBox {
-  bottom:30%;
-  box-sizing: content-box;
-  margin-top: 10%;
-  position: relative;
-  background-color: #F7B617;
+  background: rgba(255, 228, 47, 0.9);
+  margin-top: 73px;
   padding: 1em 1em;
-  width: 37%;
+  padding-bottom: 33px;
+  width: 17em;
 }
 
-.signInForm {
+#signInBoxContent {
   position: relative;
-  padding-top: 20px;
+  left: 2px;
 }
 
-.signInForm {
-  position: relative;
-  padding-top: 10px;
+.contentHeader {
+  font-size: 19px;
+  font-family: monospace;
+  font-weight: bold;
 }
 
-button {
-  background-color: #F7B617;
-  color: black;
-  border:none;
-  border-radius: 4px;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  cursor:pointer;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#registrate {
-  background-color:white !important;
-  padding: 5px;
-  position: relative;
-  margin-top: 7px;
-  font-size: 12px;
-  margin-bottom: 15px;
-}
-
-#conductor {
-  background-color:white !important;
-  padding: 7px 10px;
-  position: relative;
-  margin-top: 7px;
-  font-size: 12px;
-  white-space: nowrap;
-  text-align: left;
-  width:160px;
-}
-
-.textBoxHeader {
-  line-height: 22px;
-}
-
-.text-header {
-  font-size: 20px;
-}
-
-p {
-  margin:0;
-}
-
-.containerTwo {
-  background-color: #F7B617;
-  margin-top: -2px;
-  padding-bottom: 20px;
-}
-
-.infoRow {
-  padding-top: 1%;
-  padding-bottom: 5%;
-}
-
-section.containerTwo > div.row {
-  margin-bottom: 0;
-}
-
-.contentSecond {
-
-}
-
-#phone {
-  height: 239px;
-}
-
-#infoSection {
-  box-sizing: content-box;
-  margin-top: 5%;
-  padding-left: 7%;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  margin-bottom: 29px;
-/*  border-style: ridge; */
-}
-
-#phoneText {
-  display: inline-block;
-  color: white;
-  position: relative;
-  width: 52%;
-  left: 22%;
-}
-
-.p2 {
-  margin-bottom: 10px;
-}
-
-.infoContent {
-  box-sizing: content-box;
-  display: inline-block;
-}
-
-.containerThree {
-  background-image: url("../assets/images/conduce.jpg");
-  background-size: cover;
-  background-position: bottom;
-  height: 24em;
-  color: white;
-  margin-top: 0;
-}
-
-div.opaque {
-  opacity: 0.8;
-}
-
-div.opaque p {
-
-}
-
-div button {
-  background-color: #F7B617 !important;
-  padding: 7px 10px;
-  position: relative;
-  margin-top: 7px;
-  font-size: 12px;
-  white-space: nowrap;
-  text-align: left;
-  width:160px;
-}
-
-.containerFour {
-  background-color: #F7B617;
-  color: white;
-}
-
-#maps {
-  padding-top: 110px;
-  margin-left: 72px;
-  height: 508px;
-}
-
-.maps button {
-  background-color: white !important;
-  padding: 9px 10px;
-  position: relative;
-  margin-top: 7px;
-  font-size: 14px;
-  white-space: nowrap;
-  text-align: left;
-  width: 97px;
-  color: black;
-}
-
-.mapsTextHeader {
-  font-size: 21px;
-}
-
-.page-footer {
-  background-color: #2B2B2B;
-  color: white;
-}
-
-hr {
+hr{
   height: 12px;
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
+button {
+  background-color: white;
+  border:none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 7px 8px;
+  color: black;
+  text-align: center;
+  cursor:pointer;
+  width: 191px;
+  margin-top: 8px;
+
+}
+
+button {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  background-color:#CCCCCC;
+
+}
+
+#register {
+  margin-top: 19px;
+}
+
+/*Description*/
+
+#infoSection {
+  background: linear-gradient(to bottom left, #4c4c4c 0%, #bcbcb7 100%);
+}
+
+#phone {
+  height: 280px;
+  padding: 20px 30px;
+}
+
+#phoneText {
+  padding-right: 41px;
+}
+
+/*Conductor*/
+
+#conductor {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 320px;
+}
+
+#driverContent {
+  background: rgba(255, 228, 47, 0.7);
+  position: relative;
+  left: 427px;
+  margin-top: 16px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  width: 18em;
+}
+
+/*Bills*/
+
+#bills {
+  background: linear-gradient(to bottom right, #4c4c4c 0%, #bcbcb7 100%);
+  color: white;
+  height: 19em;
+}
+
+#billButton {
+  margin-top: 21px;
+}
+
+input {
+  color:white;
+}
+
+/*More Info*/
+
+#moreInfo {
+background: linear-gradient(to top right, #4c4c4c 0%, #bcbcb7 100%);
+padding-left: 5px;
+}
+
+#list {
+  position: relative;
+  right: 30px;
+  padding: 4px 15px;
+}
+
+#leftList {
+  position: relative;
+  left: 45px;
+}
+
+#rightList {
+  position: relative;
+  right: 10px;
+}
+
 #stores {
   position: relative;
-  float:left;
+  margin-top: 48px;
+}
+
+.stores {
+  width: 108px;
+}
+
+.ios {
+  margin-top: 20px;
 }
 
 #map {
   width: 100%;
   height: 400px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-size: 11px;
+  height: 21px;
+  padding-top: 3px;
+  text-align: right;
 }

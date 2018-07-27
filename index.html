@@ -1,148 +1,133 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lab&ltar</title>
-  <link rel="icon" href="assets/images/logo.png"></link>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<header>
-  <nav class="">
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">
-    <img id="logo" src="assets/images/logoForma.png" alt="Labcar"></a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="index.html">Viaja</a></li>
-      <li><a href="index.html">Conduce</a></li>
-      <li><a href="index.html">Inicia sesion</a></li>
-    </ul>
-  </div>
-</nav>
-</header>
-<!--Primer seccion-->
-<section class="containerOne">
-  <div class="row">
-    <div id="signInBox" class="col s4 right">
-      <div class="textBoxHeader">
-        <p class="text-header">Disfruta del viaje</p>
-        <p class="text-header">Eres dueño de tu tiempo</p>
-      </div>
-      <div>
-      <p class="signInForm">Viaja con <strong>Lab&ltar</strong></p>
-      <button id="registrate">REGISTRATE</button>
-      </div>
-      <hr>
-      <P class="signInForm two">Ó bien</P>
-      <button id="conductor">Conviertete en un conductor</button>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab&ltar</title>
+    <link rel="icon" href="assets/images/logo.png"></link>
+    <link href="https://fonts.googleapis.com/css?family=Cousine" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <!--Navbar-->
+  <header class="container">
+    <nav class="row">
+    <div class="nav-wrapper col s12">
+      <a href="#" class="brand-logo"><img id="logo" src="assets/images/logoForma.png" alt="Labcar"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="#">Viaja</a></li>
+        <li><a href="#">Conduce</a></li>
+        <li><a href="#">Inicia sesion</a></li>
+      </ul>
     </div>
-  </div>
-  </section>
-  <!--Segunda seccion-->
-  <section class="containerTwo">
+  </nav>
+  </header>
+  <!--Login, Signup-->
+  <section id="loginSignup" class="container">
     <div class="row">
-      <div id="infoSection" class="col s5">
-          <img id="phone" src="assets/images/iPhone6Plus.png" alt="IPhone">
-      <div id="phoneText" class="col s7 right information">
-          <p class="text-header p2">Descarga la nueva app</p>
-          <p>La version actualizada de Labcar esta llena de nuevas funciones para llegar a donde quieras aun mas facil y rápido.</p>
+      <div id="signInBox" class="col s4 right">
+        <div id="signInBoxContent">
+          <p class="contentHeader">¡DISFRUTA DEL VIAJE!</p>
+          <hr>
+          <p class="buttonHeder">Viaja con <strong>Lab&ltar</strong></p>
+          <button>INICIA SESION</button>
           <br>
-          <p>Con solo tocar un boton, un ato llega justo a tu ubicacion. Subete y no te preocupes: tu conductor sabe exactamente a donde ir.</p>
+          <div id="register">
+            <p>¿Eres nuevo?</p>
+            <button>REGISTRATE</button>
+        </div>
         </div>
       </div>
     </div>
-  </section>
-  <!--Tercer seccion-->
-  <section class="containerThree">
-    <div class="row">
-      <div class="col s4 right">
-        <div class="card opaque grey darken-3">
-          <div class="card-content white-text">
-            <p class="card-title">Conduce cuando quieras</p>
-            <p>Labcar es una opcion flexible para alcanzar tus metas financieras</p>
-            <button>Conviertete en conductor</button>
+    </section>
+    <!--Description-->
+    <section id="infoSection" class="container">
+      <div class="row">
+        <div class="col s5">
+          <img id="phone" src="assets/images/iPhone6Plus.png" alt="IPhone"></div>
+        <div id="phoneText" class="col s7 right information">
+            <p class="contentHeader">Descarga la nueva app</p>
+            <br>
+            <p>La versión actualizada de Labcar esta llena de nuevas funciones para llegar a donde quieras aún mas fácil y rápido.</p>
+            <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+          </div>
+      </div>
+    </section>
+    <!--Conductor-->
+    <section id="conductor" class="container">
+      <div class="row">
+        <div class="col s12">
+          <div id="driverContent" class="card col s5">
+              <p class="card-title contentHeader">Conduce cuando quieras</p>
+              <p>Labcar es una opcion flexible para alcanzar tus metas financieras</p>
+              <br>
+              <button>Conviertete en conductor</button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!--Cuarta seccion-->
-  <section class="containerFour">
-    <div class="row">
-      <div id="maps" class="col s5 maps">
-        <p class="mapsTextHeader">Tarifas</p>
-        <p>Consulta las tarifas Labcar aqui</p>
-        <img src="assets/images/shape.png" alt="BullsEye">
-        <input type="text" value="Ingrese su punto de partida">
-        <img src="assets/images/shape2.png" alt="PaperAirplane">
-        <input type="text" value="Ingrese su destino">
-        <button>!Trazar Ruta!</button>
+    </section>
+    <!--Bills-->
+    <section class="container">
+      <div class="row">
+        <div id="bills" class="col s12">
+          <h3 class="contentHeader">Tarifas</h3>
+          <p>Consulta las tarifas Labcar aqui</p>
+          <br>
+          <div>
+              <input onfocus="this.value=''" value="Ingrese su punto de partida">
+          </div>
+          <div>
+              <input onfocus="this.value=''" value="Ingrese su destino">
+          </div>
+          <button id="billButton">!Trazar Ruta!</button>
+        </div>
+      </div>
+    </section>
+    <!--Map-->
+    <div class="container">
+      <div class="row">
+        <div id="map" class="col 12"></div>
       </div>
     </div>
-        <div id="map"></div>
-  </section>
-  <!--Quinta seccion-->
-  <footer class="page-footer">
-      <div class="container">
+    <!--More info-->
+    <section id="moreInfo" class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text">Lab&ltar</h5><hr>
+            <div class="col s12">
+              <h5 class="white-text">Lab&ltar</h5><hr>
+              </div>
+          <div id="list" class="row">
+            <div id="leftList" class="col l4 offset-l2 s4">
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Viaja</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Conduce</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Metodos de pago</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Entregas</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">¿Como funciona?</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Paises</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Seguridad</a></li>
+              </ul>
             </div>
-          </div>
-        <div class="row">
-          <div class="col l4 offset-l2 s6">
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Viaja</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Conduce</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Metodos de pago</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Entregas</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">¿Como funciona?</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Paises</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Seguridad</a></li>
-            </ul>
-          </div>
-          <div class="col l4 offset-l2 s6">
-            <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Oportunidades</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Nuestra historia</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">API de Labcar</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Eventos</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Desarrolladores</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Servicios</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Laboratoria</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Coders</a></li>
-            </ul>
-          </div>
-          <div id="stores">
-            <img src="assets/images/enBadgeWebGeneric.png" alt="GoogleStore">
-            <img src="assets/images/appstore.png" alt="appStore">
-          </div>
-        </div>
-        <div class="row">
-          <div class="footerNav">
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-            <a href="">LinkedIn</a>
-            <a href="">IOS</a>
-            <a href="">Play</a>
-          </div>
-        </div>
-        <hr>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        © 2018 Labcar Technoogies Inc.
-        <a class="grey-text text-lighten-4 right" href="#!"></a>
-        </div>
-      </div>
-    </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <script async defer
-     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRWef3GqDKnL_aihWVzjSLOsUJXon00dQ&callback=initMap">
-     </script>
-<!--api AIzaSyBRWef3GqDKnL_aihWVzjSLOsUJXon00dQ-->
-  <script src="js/app.js"></script>
-</body>
+            <div id="rightList" class="col l4 offset-l2 s4">
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Oportunidades</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Nuestra historia</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">API de Labcar</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Eventos</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Desarrolladores</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Servicios</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Laboratoria</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Coders</a></li>
+              </ul>
+            </div>
+            <div id="stores" class="col s3">
+                <a href="https://play.google.com/store?hl=es_419" target="_blank"><img class="stores" src="assets/images/enBadgeWebGeneric.png" alt="GoogleStore"></a>
+                <a href="https://itunes.apple.com/mx/app/apple-store/id375380948?mt=8" target="_blank"><img class="stores ios" src="assets/images/appstore.png" alt="appStore"></a>
+            </div>
+         </div>
+      <footer>© 2018 Labcar Technoogies Inc.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRWef3GqDKnL_aihWVzjSLOsUJXon00dQ&callback=initMap"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
