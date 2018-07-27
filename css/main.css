@@ -91,6 +91,7 @@ button:hover {
 
 #infoSection {
   background: linear-gradient(to bottom left, #4c4c4c 0%, #bcbcb7 100%);
+  padding-bottom: 30px;
 }
 
 #phone {
@@ -99,7 +100,7 @@ button:hover {
 }
 
 #phoneText {
-  padding-right: 41px;
+  float: left;
 }
 
 /*Conductor*/
@@ -114,7 +115,7 @@ button:hover {
 #driverContent {
   background: rgba(255, 228, 47, 0.7);
   position: relative;
-  left: 427px;
+  left: 61px;
   margin-top: 16px;
   padding-bottom: 30px;
   padding-left: 25px;
@@ -155,18 +156,15 @@ padding-left: 5px;
   left: 45px;
 }
 
-#rightList {
-  position: relative;
-  right: 10px;
-}
-
 #stores {
   position: relative;
   margin-top: 48px;
 }
 
 .stores {
+  position: relative;
   width: 108px;
+  left:78px;
 }
 
 .ios {
